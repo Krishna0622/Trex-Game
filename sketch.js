@@ -55,7 +55,7 @@ function setup() {
   
   score = 0;
   
-  
+  //h
   gameOver = createSprite(300,100);
   gameOver.visible=false;
   restart = createSprite(300,140);
