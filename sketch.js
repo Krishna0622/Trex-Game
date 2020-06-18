@@ -71,7 +71,7 @@ function draw() {
   background(180);
   if(gameState===PLAY){
    if(keyDown("space")&&trex.y>160) {
-    trex.velocityY = -10;
+    trex.velocityY = -15;
     }  
     if (ground.x < 0){
     ground.x = ground.width/2;
