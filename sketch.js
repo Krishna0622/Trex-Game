@@ -76,7 +76,7 @@ function draw() {
     if (ground.x < 0){
     ground.x = ground.width/2;
     }
-    trex.velocityY = trex.velocityY + 0.8
+    trex.velocityY = trex.velocityY + 0.5;
     spawnClouds();
     spawnObstacles();
     score = score + Math.round(getFrameRate()/60);
